@@ -7,6 +7,11 @@ Latest Public Release of Madsonic.
 
 Forked from binhex/arch-madsonic
 
+**Build Information**
+Context Root Path: /mad
+HTTP Port: 4040
+HTTPS Port: 4050
+
 **Pull image**
 
 ```
@@ -26,11 +31,11 @@ Note:- If you wish to use a secure connection (HTTPS) then please set the enviro
 **Access application**
 
 ```
-http://<host ip>:4040
+http://<host ip>:4040/mad
 ```
 
 or if you have enabled SSL
 
 ```
-https://<host ip>:4050
+https://<host ip>:4050/mad
 ```
