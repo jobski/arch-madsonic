@@ -5,16 +5,18 @@ Madsonic - http://www.madsonic.org/
 
 Latest Public Release of Madsonic.
 
+Forked from binhex/arch-madsonic
+
 **Pull image**
 
 ```
-docker pull binhex/arch-madsonic
+docker pull jobski/arch-madsonic
 ```
 
 **Run container**
 
 ```
-docker run -d -p 4040:4040 -p 4050:4050 --name=<container name> -e SSL="yes" -v <path for media files>:/media -v <path for config files>:/config -v /etc/localtime:/etc/localtime:ro binhex/arch-madsonic
+docker run -d -p 4040:4040 -p 4050:4050 --name=<container name> -e SSL="yes" -v <path for media files>:/media -v <path for config files>:/config -v /etc/localtime:/etc/localtime:ro jobski/arch-madsonic
 ```
 
 Please replace all user variables in the above command defined by <> with the correct values.
