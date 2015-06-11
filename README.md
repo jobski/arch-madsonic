@@ -8,9 +8,13 @@ Latest Public Release of Madsonic.
 Forked from binhex/arch-madsonic
 
 **Build Information**
+
 Context Root Path: /mad
+
 HTTP Port: 4040
+
 HTTPS Port: 4050
+
 
 **Pull image**
 
